@@ -11,6 +11,7 @@
 		2D422865211449CB00A40D26 /* OrangeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D422861211449CB00A40D26 /* OrangeVC.swift */; };
 		2D422866211449CB00A40D26 /* RedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D422862211449CB00A40D26 /* RedVC.swift */; };
 		2D422867211449CB00A40D26 /* GreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D422863211449CB00A40D26 /* GreenVC.swift */; };
+		2D42286921144F6700A40D26 /* BlueVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D42286821144F6700A40D26 /* BlueVC.swift */; };
 		3601994096C32326E59040ED /* Pods_FHXNavigationTarBar_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42733E9906CBD28DE8296A94 /* Pods_FHXNavigationTarBar_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
@@ -35,6 +36,7 @@
 		2D422861211449CB00A40D26 /* OrangeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrangeVC.swift; sourceTree = "<group>"; };
 		2D422862211449CB00A40D26 /* RedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedVC.swift; sourceTree = "<group>"; };
 		2D422863211449CB00A40D26 /* GreenVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreenVC.swift; sourceTree = "<group>"; };
+		2D42286821144F6700A40D26 /* BlueVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueVC.swift; sourceTree = "<group>"; };
 		42733E9906CBD28DE8296A94 /* Pods_FHXNavigationTarBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FHXNavigationTarBar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* FHXNavigationTarBar_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FHXNavigationTarBar_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 		607FACD21AFB9204008FA782 /* Example for FHXNavigationTarBar */ = {
 			isa = PBXGroup;
 			children = (
+				2D42286821144F6700A40D26 /* BlueVC.swift */,
 				2D422863211449CB00A40D26 /* GreenVC.swift */,
 				2D422861211449CB00A40D26 /* OrangeVC.swift */,
 				2D422862211449CB00A40D26 /* RedVC.swift */,
@@ -377,6 +380,7 @@
 			files = (
 				2D422867211449CB00A40D26 /* GreenVC.swift in Sources */,
 				2D422865211449CB00A40D26 /* OrangeVC.swift in Sources */,
+				2D42286921144F6700A40D26 /* BlueVC.swift in Sources */,
 				2D422864211449CB00A40D26 /* YellowVC.swift in Sources */,
 				2D422866211449CB00A40D26 /* RedVC.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,

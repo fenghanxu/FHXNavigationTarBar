@@ -8,81 +8,92 @@
 
 /* Begin PBXBuildFile section */
 		0079FBBACB2B65CCB5F65C541101C85F /* Pods-FHXNavigationTarBar_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F5984A792AC66A9698C99E450478D7A /* Pods-FHXNavigationTarBar_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0342247BE3AE8D79636DA99AF07CFEC3 /* Asserts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444FAFB45DD758C26C257F9A01093595 /* Asserts.swift */; };
+		217BDBA140A44D89CA4EA33CF4BB7FB0 /* FHXNavigationTarBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 96A83369C1E95C361471E0A4F71D790D /* FHXNavigationTarBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2DD49DFD413A9ACC407446D16C5FC950 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		2E0AA5E03013B9A87769362F9CF1DC74 /* FHXNavigationTarBar.h in Headers */ = {isa = PBXBuildFile; fileRef = CF85B61F86DDA60B58D2E2A351D94962 /* FHXNavigationTarBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4C15D45C2EFC3BCA148559D74741A00F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		575BBA10585B8134219D5476E4C2625E /* FHXNavigationTarBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CD7E955140C6962049AAB91B29A2EE0C /* FHXNavigationTarBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B45E89A9F0849F66B672F0AD4B2D4F0 /* nav_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 652EC0348C07D837CCA510444080D353 /* nav_back@2x.png */; };
 		5B975806C817804A68F5DBAE9DB7A8E4 /* Pods-FHXNavigationTarBar_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D16B2EBD6C3BE67689BF0964EEDC6DC /* Pods-FHXNavigationTarBar_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		93E24ED793623CDB4BAD2BBF6A7AFB79 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
-		B8BA1D87115436AC6EC4C0485AB53B08 /* FHXNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EE2C7170BC6A8C184D2C2E3B3B9DE7 /* FHXNavigationController.swift */; };
+		5DEDBD6820665130CE00E452557A68C5 /* FHXTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F71D0F9957DECC2A6162B2B383F740B /* FHXTabBarViewController.swift */; };
+		92218C7083322BBD4F16CE9D129AB7D5 /* nav_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E4D5313DB9BEAA8406E549488AFD26A /* nav_back.png */; };
 		C0903F13134C7886578A6A2333A9C3AC /* Pods-FHXNavigationTarBar_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BBBDF9B093C57DEDC5832DC3DC75B3 /* Pods-FHXNavigationTarBar_Tests-dummy.m */; };
 		C378B5E941502AABB7B338FF02629E8D /* Pods-FHXNavigationTarBar_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E005567C1E7FCCF95128CD6AD71189F9 /* Pods-FHXNavigationTarBar_Example-dummy.m */; };
-		D0972D2D12BC2CE9810BA57DB696C91B /* FHXNavigationTarBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BD9575FB8352516103DB0E7944C669 /* FHXNavigationTarBar-dummy.m */; };
-		DB825DB4510D3AFFE1617832503468D6 /* FHXTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5890950363DA41BBB4DD93F81478136 /* FHXTabBarViewController.swift */; };
+		C8FB9B7E43328580241F14748259DC26 /* FHXNavigationTarBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C4EB50ED43F08D4FE82F451F7D8C74 /* FHXNavigationTarBar-dummy.m */; };
+		CC4EF7928BE002FEFCAE444E241325B7 /* nav_back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E4FC23E3ACF7DF9C24CB672B76277D7E /* nav_back@3x.png */; };
+		CD16275F3797E3B88D16BEADF04DE6A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		DD76F49264868BFA5B5FA226B3D30383 /* nav-shadowImage.png in Resources */ = {isa = PBXBuildFile; fileRef = DF3DC0D158A87B85F05AFD608927A313 /* nav-shadowImage.png */; };
 		DEFE00BE0C42F2A993D12E1C2633BCEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		DFA41B79464A33A2EC09C3264206F3CB /* FHXNavigationTarBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 294B4DF2A5A043B69EE20821BB2FA3EC /* FHXNavigationTarBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6BBC9E447015B4B3DB55FD9CBCACB92 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		E9B6AB66211CE98E7E9948E49A6A2424 /* Asserts.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 053D722558014680BF952FB799103290 /* Asserts.bundle */; };
+		F6AB21C240322286245B06F4F4789188 /* FHXNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785BC49F09DB62990C5D5C617120B068 /* FHXNavigationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		78FD2DE970353DBDA9E7D8BE6764987E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EBBE1B89B6F25DC964EAB77A7B45990;
+			remoteInfo = "FHXNavigationTarBar-Asserts";
+		};
 		E47F9A07605F1E0A31CE23BADBB2F29A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E6F4ADF00E0F76D77070533909AA1062;
+			remoteGlobalIDString = 2EFC83F33C5566C0CB716B970EFD7BFB;
 			remoteInfo = FHXNavigationTarBar;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		19EE2C7170BC6A8C184D2C2E3B3B9DE7 /* FHXNavigationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FHXNavigationController.swift; path = Sources/FHXNavigationController.swift; sourceTree = "<group>"; };
+		053D722558014680BF952FB799103290 /* Asserts.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Asserts.bundle; path = "FHXNavigationTarBar-Asserts.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1028CDCCFEE6293116EB0FF74F4249D0 /* Pods_FHXNavigationTarBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FHXNavigationTarBar_Example.framework; path = "Pods-FHXNavigationTarBar_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		175F7386BFFCEE964F5F3BD0C683FE73 /* FHXNavigationTarBar.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = FHXNavigationTarBar.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		21D0CA7D3A19882CD9CE8C81072CAA5C /* Pods_FHXNavigationTarBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FHXNavigationTarBar_Tests.framework; path = "Pods-FHXNavigationTarBar_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		27BBBDF9B093C57DEDC5832DC3DC75B3 /* Pods-FHXNavigationTarBar_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FHXNavigationTarBar_Tests-dummy.m"; sourceTree = "<group>"; };
+		294B4DF2A5A043B69EE20821BB2FA3EC /* FHXNavigationTarBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FHXNavigationTarBar-umbrella.h"; sourceTree = "<group>"; };
 		2D16B2EBD6C3BE67689BF0964EEDC6DC /* Pods-FHXNavigationTarBar_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FHXNavigationTarBar_Tests-umbrella.h"; sourceTree = "<group>"; };
-		39C65929C434963CBDE99E07E4E29A62 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		3F9C65404B99A81DF539EDA8938CF252 /* Pods-FHXNavigationTarBar_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FHXNavigationTarBar_Example-resources.sh"; sourceTree = "<group>"; };
 		3FBE33E454B8CA46E84C295C35803F53 /* Pods-FHXNavigationTarBar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FHXNavigationTarBar_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		444FAFB45DD758C26C257F9A01093595 /* Asserts.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Asserts.swift; path = Sources/Asserts.swift; sourceTree = "<group>"; };
 		45B0AA5596184A64E65948B0C0064BEB /* Pods-FHXNavigationTarBar_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FHXNavigationTarBar_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		46A6D19C4B73A61905C5B85B1313B509 /* Pods-FHXNavigationTarBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FHXNavigationTarBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4C00DF9B0B17DC06BF7D95C93FA8D5C2 /* Pods-FHXNavigationTarBar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FHXNavigationTarBar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		5201FD46142EF32AACE6CC5AFD9CC1E6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		591F973655FC6786987C767B06626917 /* FHXNavigationTarBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FHXNavigationTarBar.framework; path = FHXNavigationTarBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		65060BABCD16E31054B93BB8E31536BF /* Pods-FHXNavigationTarBar_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FHXNavigationTarBar_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6D100CFAAF7B50DDCBC42FB344A1DC30 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		705D2404A0579A2552068A193A4567FF /* FHXNavigationTarBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FHXNavigationTarBar.modulemap; sourceTree = "<group>"; };
+		652EC0348C07D837CCA510444080D353 /* nav_back@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "nav_back@2x.png"; path = "Asserts.bundle/nav_back@2x.png"; sourceTree = "<group>"; };
 		7275795C8FA553ADFD43FC53A50787AB /* Pods-FHXNavigationTarBar_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FHXNavigationTarBar_Tests-resources.sh"; sourceTree = "<group>"; };
 		72D54CB0E411AB15C0A83C1E4B6B96FA /* Pods-FHXNavigationTarBar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FHXNavigationTarBar_Example.release.xcconfig"; sourceTree = "<group>"; };
-		73BD9575FB8352516103DB0E7944C669 /* FHXNavigationTarBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FHXNavigationTarBar-dummy.m"; sourceTree = "<group>"; };
+		785BC49F09DB62990C5D5C617120B068 /* FHXNavigationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FHXNavigationController.swift; path = Sources/FHXNavigationController.swift; sourceTree = "<group>"; };
 		840E4010C28DEE436DAD7DD2B469E9D8 /* Pods-FHXNavigationTarBar_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FHXNavigationTarBar_Example-frameworks.sh"; sourceTree = "<group>"; };
+		8B15A1868AE4B7B5AFED78E614B081F8 /* FHXNavigationTarBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FHXNavigationTarBar-prefix.pch"; sourceTree = "<group>"; };
 		8D0DB21912BB2DFB28CA136FD1F34A3A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E4D5313DB9BEAA8406E549488AFD26A /* nav_back.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = nav_back.png; path = Asserts.bundle/nav_back.png; sourceTree = "<group>"; };
 		8F5984A792AC66A9698C99E450478D7A /* Pods-FHXNavigationTarBar_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FHXNavigationTarBar_Example-umbrella.h"; sourceTree = "<group>"; };
+		8F71D0F9957DECC2A6162B2B383F740B /* FHXTabBarViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FHXTabBarViewController.swift; path = Sources/FHXTabBarViewController.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93B11F896809615FFBC246C366EEB6FA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		96A83369C1E95C361471E0A4F71D790D /* FHXNavigationTarBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FHXNavigationTarBar.h; path = Sources/FHXNavigationTarBar.h; sourceTree = "<group>"; };
 		99C4E485862B47DBA240D6A65781EA9B /* Pods-FHXNavigationTarBar_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FHXNavigationTarBar_Tests.modulemap"; sourceTree = "<group>"; };
-		B5890950363DA41BBB4DD93F81478136 /* FHXTabBarViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FHXTabBarViewController.swift; path = Sources/FHXTabBarViewController.swift; sourceTree = "<group>"; };
+		A740843FEAB8D317C4830C7601D1D437 /* FHXNavigationTarBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FHXNavigationTarBar.modulemap; sourceTree = "<group>"; };
 		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		B7EB5E5F0566426AEEF39A5FB40C9A56 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B8A608C699209C0F5858BB2F7C569852 /* FHXNavigationTarBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FHXNavigationTarBar.xcconfig; sourceTree = "<group>"; };
 		C03375004284A213CA5BD4A5EAA42FCB /* Pods-FHXNavigationTarBar_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FHXNavigationTarBar_Example.modulemap"; sourceTree = "<group>"; };
-		CD7E955140C6962049AAB91B29A2EE0C /* FHXNavigationTarBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FHXNavigationTarBar-umbrella.h"; sourceTree = "<group>"; };
+		C43EE6D883F9546220646798AD5B1A9C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C78030B027257707D5FDD53D07EC1330 /* FHXNavigationTarBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FHXNavigationTarBar.framework; path = FHXNavigationTarBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF6B4E55E44547A5720F9A50C8E7FABF /* Pods-FHXNavigationTarBar_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FHXNavigationTarBar_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CF85B61F86DDA60B58D2E2A351D94962 /* FHXNavigationTarBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FHXNavigationTarBar.h; path = Sources/FHXNavigationTarBar.h; sourceTree = "<group>"; };
+		D6C4EB50ED43F08D4FE82F451F7D8C74 /* FHXNavigationTarBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FHXNavigationTarBar-dummy.m"; sourceTree = "<group>"; };
 		D71178EB41EDCF4FFBC0F1337A4739F6 /* Pods-FHXNavigationTarBar_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FHXNavigationTarBar_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DD8C7193D3EFED591242AB678AC35A82 /* FHXNavigationTarBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FHXNavigationTarBar.xcconfig; sourceTree = "<group>"; };
+		DF3DC0D158A87B85F05AFD608927A313 /* nav-shadowImage.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "nav-shadowImage.png"; path = "Asserts.bundle/nav-shadowImage.png"; sourceTree = "<group>"; };
 		E005567C1E7FCCF95128CD6AD71189F9 /* Pods-FHXNavigationTarBar_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FHXNavigationTarBar_Example-dummy.m"; sourceTree = "<group>"; };
-		E5ABB85C2D9BBA90B1C126414AB84619 /* Pods_FHXNavigationTarBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FHXNavigationTarBar_Tests.framework; path = "Pods-FHXNavigationTarBar_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F31DF7E7B29389FB65F56E0C7E6CF4EA /* FHXNavigationTarBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FHXNavigationTarBar-prefix.pch"; sourceTree = "<group>"; };
+		E4FC23E3ACF7DF9C24CB672B76277D7E /* nav_back@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "nav_back@3x.png"; path = "Asserts.bundle/nav_back@3x.png"; sourceTree = "<group>"; };
+		EB27EBC4FBBED3F4C0F04A3BC7AE52D4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F37B3CA1A27CE30FA642E0435A757E49 /* Pods-FHXNavigationTarBar_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FHXNavigationTarBar_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		F3D44F992A39AAC4E9F816B9AEC0C32F /* FHXNavigationTarBar.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = FHXNavigationTarBar.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		FACDE616F567C13315AC44B5DCEA465C /* Pods_FHXNavigationTarBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FHXNavigationTarBar_Example.framework; path = "Pods-FHXNavigationTarBar_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F73AC2667B0EB5E2C7AE9BCB030F52F2 /* ResourceBundle-Asserts-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Asserts-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		145E44A3828F019CCF0053F23C363FA5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4C15D45C2EFC3BCA148559D74741A00F /* Foundation.framework in Frameworks */,
-				93E24ED793623CDB4BAD2BBF6A7AFB79 /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		1BEB1E0F8898B4A720F867E61B5E5EF6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -99,6 +110,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6BBF8ECB50C9F4BA4B631477AB0319E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4EB0AEA048A5BF853BEBA3ACE1AFBD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD16275F3797E3B88D16BEADF04DE6A9 /* Foundation.framework in Frameworks */,
+				E6BBC9E447015B4B3DB55FD9CBCACB92 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -111,12 +138,12 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		0D306D7268FA1DFE94D7293E0C92129A /* Pod */ = {
+		09E0871DDFD78268E25759F5DBF16510 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				F3D44F992A39AAC4E9F816B9AEC0C32F /* FHXNavigationTarBar.podspec */,
-				5201FD46142EF32AACE6CC5AFD9CC1E6 /* LICENSE */,
-				39C65929C434963CBDE99E07E4E29A62 /* README.md */,
+				175F7386BFFCEE964F5F3BD0C683FE73 /* FHXNavigationTarBar.podspec */,
+				93B11F896809615FFBC246C366EEB6FA /* LICENSE */,
+				C43EE6D883F9546220646798AD5B1A9C /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -139,14 +166,6 @@
 			path = "Target Support Files/Pods-FHXNavigationTarBar_Example";
 			sourceTree = "<group>";
 		};
-		239E63D8F70FAB235A6BE8E4D3B2E363 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				494E513A2A2644546EE59823636EDA4A /* FHXNavigationTarBar */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -164,42 +183,60 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		494E513A2A2644546EE59823636EDA4A /* FHXNavigationTarBar */ = {
-			isa = PBXGroup;
-			children = (
-				19EE2C7170BC6A8C184D2C2E3B3B9DE7 /* FHXNavigationController.swift */,
-				CF85B61F86DDA60B58D2E2A351D94962 /* FHXNavigationTarBar.h */,
-				B5890950363DA41BBB4DD93F81478136 /* FHXTabBarViewController.swift */,
-				0D306D7268FA1DFE94D7293E0C92129A /* Pod */,
-				5BB558F6F71542626C0194BD676134CE /* Support Files */,
-			);
-			name = FHXNavigationTarBar;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		5BB558F6F71542626C0194BD676134CE /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				705D2404A0579A2552068A193A4567FF /* FHXNavigationTarBar.modulemap */,
-				B8A608C699209C0F5858BB2F7C569852 /* FHXNavigationTarBar.xcconfig */,
-				73BD9575FB8352516103DB0E7944C669 /* FHXNavigationTarBar-dummy.m */,
-				F31DF7E7B29389FB65F56E0C7E6CF4EA /* FHXNavigationTarBar-prefix.pch */,
-				CD7E955140C6962049AAB91B29A2EE0C /* FHXNavigationTarBar-umbrella.h */,
-				6D100CFAAF7B50DDCBC42FB344A1DC30 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/FHXNavigationTarBar";
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				239E63D8F70FAB235A6BE8E4D3B2E363 /* Development Pods */,
+				9452EF0C008AB0FC96392AFB18E39B3C /* Development Pods */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				E80EADEB9A40E2348B2916404E066257 /* Products */,
+				98F3622DAD6D083073A0FB32C9843C83 /* Products */,
 				00698F28FFE7AF6C197F5E87432CC8C6 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		9021178B5236CCC9EACE2E5EC33295CA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DF3DC0D158A87B85F05AFD608927A313 /* nav-shadowImage.png */,
+				8E4D5313DB9BEAA8406E549488AFD26A /* nav_back.png */,
+				652EC0348C07D837CCA510444080D353 /* nav_back@2x.png */,
+				E4FC23E3ACF7DF9C24CB672B76277D7E /* nav_back@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		9452EF0C008AB0FC96392AFB18E39B3C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE2FCF6C201BD04650A7FC71F557212E /* FHXNavigationTarBar */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		98F3622DAD6D083073A0FB32C9843C83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				053D722558014680BF952FB799103290 /* Asserts.bundle */,
+				C78030B027257707D5FDD53D07EC1330 /* FHXNavigationTarBar.framework */,
+				1028CDCCFEE6293116EB0FF74F4249D0 /* Pods_FHXNavigationTarBar_Example.framework */,
+				21D0CA7D3A19882CD9CE8C81072CAA5C /* Pods_FHXNavigationTarBar_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC691F01DCB4528D92C853592CE5A2A8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A740843FEAB8D317C4830C7601D1D437 /* FHXNavigationTarBar.modulemap */,
+				DD8C7193D3EFED591242AB678AC35A82 /* FHXNavigationTarBar.xcconfig */,
+				D6C4EB50ED43F08D4FE82F451F7D8C74 /* FHXNavigationTarBar-dummy.m */,
+				8B15A1868AE4B7B5AFED78E614B081F8 /* FHXNavigationTarBar-prefix.pch */,
+				294B4DF2A5A043B69EE20821BB2FA3EC /* FHXNavigationTarBar-umbrella.h */,
+				EB27EBC4FBBED3F4C0F04A3BC7AE52D4 /* Info.plist */,
+				F73AC2667B0EB5E2C7AE9BCB030F52F2 /* ResourceBundle-Asserts-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FHXNavigationTarBar";
 			sourceTree = "<group>";
 		};
 		CD111D7F0184A358AEFEA03843CD96BD /* Pods-FHXNavigationTarBar_Tests */ = {
@@ -220,14 +257,19 @@
 			path = "Target Support Files/Pods-FHXNavigationTarBar_Tests";
 			sourceTree = "<group>";
 		};
-		E80EADEB9A40E2348B2916404E066257 /* Products */ = {
+		CE2FCF6C201BD04650A7FC71F557212E /* FHXNavigationTarBar */ = {
 			isa = PBXGroup;
 			children = (
-				591F973655FC6786987C767B06626917 /* FHXNavigationTarBar.framework */,
-				FACDE616F567C13315AC44B5DCEA465C /* Pods_FHXNavigationTarBar_Example.framework */,
-				E5ABB85C2D9BBA90B1C126414AB84619 /* Pods_FHXNavigationTarBar_Tests.framework */,
+				444FAFB45DD758C26C257F9A01093595 /* Asserts.swift */,
+				785BC49F09DB62990C5D5C617120B068 /* FHXNavigationController.swift */,
+				96A83369C1E95C361471E0A4F71D790D /* FHXNavigationTarBar.h */,
+				8F71D0F9957DECC2A6162B2B383F740B /* FHXTabBarViewController.swift */,
+				09E0871DDFD78268E25759F5DBF16510 /* Pod */,
+				9021178B5236CCC9EACE2E5EC33295CA /* Resources */,
+				BC691F01DCB4528D92C853592CE5A2A8 /* Support Files */,
 			);
-			name = Products;
+			name = FHXNavigationTarBar;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,18 +291,54 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FF86602F698C9FC12C62FA2105E1C770 /* Headers */ = {
+		559B9EEB1C6E80D82A91738FAE73E737 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				575BBA10585B8134219D5476E4C2625E /* FHXNavigationTarBar-umbrella.h in Headers */,
-				2E0AA5E03013B9A87769362F9CF1DC74 /* FHXNavigationTarBar.h in Headers */,
+				DFA41B79464A33A2EC09C3264206F3CB /* FHXNavigationTarBar-umbrella.h in Headers */,
+				217BDBA140A44D89CA4EA33CF4BB7FB0 /* FHXNavigationTarBar.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		2EFC83F33C5566C0CB716B970EFD7BFB /* FHXNavigationTarBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49534798BFF170FD0B3DCE4E03781A91 /* Build configuration list for PBXNativeTarget "FHXNavigationTarBar" */;
+			buildPhases = (
+				86C0DCCE25B557B1E7EE986E534255D7 /* Sources */,
+				F4EB0AEA048A5BF853BEBA3ACE1AFBD7 /* Frameworks */,
+				73BBF17BB359344A84101DE7A67A0AD6 /* Resources */,
+				559B9EEB1C6E80D82A91738FAE73E737 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58E52974E7456916EF2CA1D7C0E58BB1 /* PBXTargetDependency */,
+			);
+			name = FHXNavigationTarBar;
+			productName = FHXNavigationTarBar;
+			productReference = C78030B027257707D5FDD53D07EC1330 /* FHXNavigationTarBar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7EBBE1B89B6F25DC964EAB77A7B45990 /* FHXNavigationTarBar-Asserts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67626456610F062C57E474FD05FFA6FF /* Build configuration list for PBXNativeTarget "FHXNavigationTarBar-Asserts" */;
+			buildPhases = (
+				BC2550C9A366D9399508E647B4B8E51E /* Sources */,
+				6BBF8ECB50C9F4BA4B631477AB0319E5 /* Frameworks */,
+				152F87FAAE6F517182F28870FBEB0F76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FHXNavigationTarBar-Asserts";
+			productName = "FHXNavigationTarBar-Asserts";
+			productReference = 053D722558014680BF952FB799103290 /* Asserts.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
 		9105BB557E1165CAB7EED037F2659F6D /* Pods-FHXNavigationTarBar_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 71F1FAE1E70D36A7845D192AEF44D20F /* Build configuration list for PBXNativeTarget "Pods-FHXNavigationTarBar_Tests" */;
@@ -275,7 +353,7 @@
 			);
 			name = "Pods-FHXNavigationTarBar_Tests";
 			productName = "Pods-FHXNavigationTarBar_Tests";
-			productReference = E5ABB85C2D9BBA90B1C126414AB84619 /* Pods_FHXNavigationTarBar_Tests.framework */;
+			productReference = 21D0CA7D3A19882CD9CE8C81072CAA5C /* Pods_FHXNavigationTarBar_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		95E643DCA2645B22BC13AA0E18E65602 /* Pods-FHXNavigationTarBar_Example */ = {
@@ -293,24 +371,7 @@
 			);
 			name = "Pods-FHXNavigationTarBar_Example";
 			productName = "Pods-FHXNavigationTarBar_Example";
-			productReference = FACDE616F567C13315AC44B5DCEA465C /* Pods_FHXNavigationTarBar_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		E6F4ADF00E0F76D77070533909AA1062 /* FHXNavigationTarBar */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AE2A349783249D728BFC58F090458AF1 /* Build configuration list for PBXNativeTarget "FHXNavigationTarBar" */;
-			buildPhases = (
-				D3998D76F0C0A8101542ADA4E756FFD0 /* Sources */,
-				145E44A3828F019CCF0053F23C363FA5 /* Frameworks */,
-				FF86602F698C9FC12C62FA2105E1C770 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = FHXNavigationTarBar;
-			productName = FHXNavigationTarBar;
-			productReference = 591F973655FC6786987C767B06626917 /* FHXNavigationTarBar.framework */;
+			productReference = 1028CDCCFEE6293116EB0FF74F4249D0 /* Pods_FHXNavigationTarBar_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -330,25 +391,56 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = E80EADEB9A40E2348B2916404E066257 /* Products */;
+			productRefGroup = 98F3622DAD6D083073A0FB32C9843C83 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E6F4ADF00E0F76D77070533909AA1062 /* FHXNavigationTarBar */,
+				2EFC83F33C5566C0CB716B970EFD7BFB /* FHXNavigationTarBar */,
+				7EBBE1B89B6F25DC964EAB77A7B45990 /* FHXNavigationTarBar-Asserts */,
 				95E643DCA2645B22BC13AA0E18E65602 /* Pods-FHXNavigationTarBar_Example */,
 				9105BB557E1165CAB7EED037F2659F6D /* Pods-FHXNavigationTarBar_Tests */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		152F87FAAE6F517182F28870FBEB0F76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD76F49264868BFA5B5FA226B3D30383 /* nav-shadowImage.png in Resources */,
+				92218C7083322BBD4F16CE9D129AB7D5 /* nav_back.png in Resources */,
+				4B45E89A9F0849F66B672F0AD4B2D4F0 /* nav_back@2x.png in Resources */,
+				CC4EF7928BE002FEFCAE444E241325B7 /* nav_back@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73BBF17BB359344A84101DE7A67A0AD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9B6AB66211CE98E7E9948E49A6A2424 /* Asserts.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		D3998D76F0C0A8101542ADA4E756FFD0 /* Sources */ = {
+		86C0DCCE25B557B1E7EE986E534255D7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8BA1D87115436AC6EC4C0485AB53B08 /* FHXNavigationController.swift in Sources */,
-				D0972D2D12BC2CE9810BA57DB696C91B /* FHXNavigationTarBar-dummy.m in Sources */,
-				DB825DB4510D3AFFE1617832503468D6 /* FHXTabBarViewController.swift in Sources */,
+				0342247BE3AE8D79636DA99AF07CFEC3 /* Asserts.swift in Sources */,
+				F6AB21C240322286245B06F4F4789188 /* FHXNavigationController.swift in Sources */,
+				C8FB9B7E43328580241F14748259DC26 /* FHXNavigationTarBar-dummy.m in Sources */,
+				5DEDBD6820665130CE00E452557A68C5 /* FHXTabBarViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC2550C9A366D9399508E647B4B8E51E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,15 +463,84 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		58E52974E7456916EF2CA1D7C0E58BB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "FHXNavigationTarBar-Asserts";
+			target = 7EBBE1B89B6F25DC964EAB77A7B45990 /* FHXNavigationTarBar-Asserts */;
+			targetProxy = 78FD2DE970353DBDA9E7D8BE6764987E /* PBXContainerItemProxy */;
+		};
 		A141914CC518D653BBA8C55D15231824 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FHXNavigationTarBar;
-			target = E6F4ADF00E0F76D77070533909AA1062 /* FHXNavigationTarBar */;
+			target = 2EFC83F33C5566C0CB716B970EFD7BFB /* FHXNavigationTarBar */;
 			targetProxy = E47F9A07605F1E0A31CE23BADBB2F29A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		0E7E528C20AE186DFACC8B0E71B73754 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD8C7193D3EFED591242AB678AC35A82 /* FHXNavigationTarBar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FHXNavigationTarBar/FHXNavigationTarBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FHXNavigationTarBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FHXNavigationTarBar/FHXNavigationTarBar.modulemap";
+				PRODUCT_NAME = FHXNavigationTarBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		23F3D0F2944E005E8097C86F31DA34CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD8C7193D3EFED591242AB678AC35A82 /* FHXNavigationTarBar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FHXNavigationTarBar/FHXNavigationTarBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FHXNavigationTarBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FHXNavigationTarBar/FHXNavigationTarBar.modulemap";
+				PRODUCT_NAME = FHXNavigationTarBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		25097EA2B6CD33E668131BD2D818DB4D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4C00DF9B0B17DC06BF7D95C93FA8D5C2 /* Pods-FHXNavigationTarBar_Tests.debug.xcconfig */;
@@ -506,6 +667,22 @@
 			};
 			name = Release;
 		};
+		496264F6F7C3135026329888F40F4BCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD8C7193D3EFED591242AB678AC35A82 /* FHXNavigationTarBar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FHXNavigationTarBar";
+				INFOPLIST_FILE = "Target Support Files/FHXNavigationTarBar/ResourceBundle-Asserts-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = Asserts;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 		49FF8D9F1FFF7DF172AA30A1F7B18579 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 46A6D19C4B73A61905C5B85B1313B509 /* Pods-FHXNavigationTarBar_Tests.release.xcconfig */;
@@ -594,35 +771,19 @@
 			};
 			name = Release;
 		};
-		F2F7E89F0C38D84334685D8E4B0AF00F /* Release */ = {
+		D0270B396AF342DF720FBC1F9211F19B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B8A608C699209C0F5858BB2F7C569852 /* FHXNavigationTarBar.xcconfig */;
+			baseConfigurationReference = DD8C7193D3EFED591242AB678AC35A82 /* FHXNavigationTarBar.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FHXNavigationTarBar/FHXNavigationTarBar-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FHXNavigationTarBar/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FHXNavigationTarBar";
+				INFOPLIST_FILE = "Target Support Files/FHXNavigationTarBar/ResourceBundle-Asserts-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FHXNavigationTarBar/FHXNavigationTarBar.modulemap";
-				PRODUCT_NAME = FHXNavigationTarBar;
+				PRODUCT_NAME = Asserts;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
@@ -660,37 +821,6 @@
 			};
 			name = Debug;
 		};
-		FC80C00D17A00C21BEA1651599F9DD66 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B8A608C699209C0F5858BB2F7C569852 /* FHXNavigationTarBar.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FHXNavigationTarBar/FHXNavigationTarBar-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FHXNavigationTarBar/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FHXNavigationTarBar/FHXNavigationTarBar.modulemap";
-				PRODUCT_NAME = FHXNavigationTarBar;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -699,6 +829,24 @@
 			buildConfigurations = (
 				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
 				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49534798BFF170FD0B3DCE4E03781A91 /* Build configuration list for PBXNativeTarget "FHXNavigationTarBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23F3D0F2944E005E8097C86F31DA34CF /* Debug */,
+				0E7E528C20AE186DFACC8B0E71B73754 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67626456610F062C57E474FD05FFA6FF /* Build configuration list for PBXNativeTarget "FHXNavigationTarBar-Asserts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				496264F6F7C3135026329888F40F4BCA /* Debug */,
+				D0270B396AF342DF720FBC1F9211F19B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -717,15 +865,6 @@
 			buildConfigurations = (
 				FB9BEE4FBAF217584C017A9C2AD8F592 /* Debug */,
 				45691B20E51407B4CA54883C82E7510F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AE2A349783249D728BFC58F090458AF1 /* Build configuration list for PBXNativeTarget "FHXNavigationTarBar" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FC80C00D17A00C21BEA1651599F9DD66 /* Debug */,
-				F2F7E89F0C38D84334685D8E4B0AF00F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

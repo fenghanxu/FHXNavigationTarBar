@@ -34,6 +34,10 @@ TODO: Add long description of the pod here.
 
   s.source_files = ["Sources/**","Sources/*/**","Sources/*/*/**"]
   
+  s.resource_bundles = {
+    'Asserts' => ['Asserts.bundle/*.png']
+  }
+  
   s.requires_arc = true
   
   s.frameworks = 'UIKit'

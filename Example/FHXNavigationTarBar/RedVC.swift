@@ -14,9 +14,19 @@ class RedVC: UIViewController {
         super.viewDidLoad()
 
         view.backgroundColor = UIColor.red
+      
+      let btn = UIButton()
+      btn.setTitle("blue", for: .normal)
+      btn.setTitleColor(UIColor.white, for: .normal)
+      btn.backgroundColor = UIColor.blue
+      btn.addTarget(self, action: #selector(btnClick), for: .touchUpInside)
+      btn.frame = CGRect(x: 100, y: 100, width: 100, height: 100)
+      view.addSubview(btn)
     }
 
-
+  @objc func btnClick(){
+    navigationController?.pushViewController(BlueVC(), animated: true)
+  }
     
 
 

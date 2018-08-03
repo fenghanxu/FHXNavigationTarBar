@@ -28,6 +28,11 @@
     "Sources/*/**",
     "Sources/*/*/**"
   ],
+  "resource_bundles": {
+    "Asserts": [
+      "Asserts.bundle/*.png"
+    ]
+  },
   "requires_arc": true,
   "frameworks": "UIKit",
   "pod_target_xcconfig": {
