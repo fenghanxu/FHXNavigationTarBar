@@ -1,0 +1,16 @@
+PODS:
+  - FHXNavigationTarBar (0.1.0)
+
+DEPENDENCIES:
+  - FHXNavigationTarBar (from `../`)
+
+EXTERNAL SOURCES:
+  FHXNavigationTarBar:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FHXNavigationTarBar: 1c9a88d3e1d913f0ce434e9d4ef912e48eace523
+
+PODFILE CHECKSUM: e4260dc2b0d756e664a70f972442a5071a5fd5e1
+
+COCOAPODS: 1.4.0

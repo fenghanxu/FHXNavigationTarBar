@@ -1,0 +1,6 @@
+framework module FHXNavigationTarBar {
+  umbrella header "FHXNavigationTarBar-umbrella.h"
+
+  export *
+  module * { export * }
+}

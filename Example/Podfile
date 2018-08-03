@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FHXNavigationTarBar_Example' do
+  pod 'FHXNavigationTarBar', :path => '../'
+
+  target 'FHXNavigationTarBar_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

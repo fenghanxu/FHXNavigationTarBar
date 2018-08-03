@@ -1,0 +1,736 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0079FBBACB2B65CCB5F65C541101C85F /* Pods-FHXNavigationTarBar_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F5984A792AC66A9698C99E450478D7A /* Pods-FHXNavigationTarBar_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DD49DFD413A9ACC407446D16C5FC950 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		2E0AA5E03013B9A87769362F9CF1DC74 /* FHXNavigationTarBar.h in Headers */ = {isa = PBXBuildFile; fileRef = CF85B61F86DDA60B58D2E2A351D94962 /* FHXNavigationTarBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C15D45C2EFC3BCA148559D74741A00F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		575BBA10585B8134219D5476E4C2625E /* FHXNavigationTarBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CD7E955140C6962049AAB91B29A2EE0C /* FHXNavigationTarBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B975806C817804A68F5DBAE9DB7A8E4 /* Pods-FHXNavigationTarBar_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D16B2EBD6C3BE67689BF0964EEDC6DC /* Pods-FHXNavigationTarBar_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93E24ED793623CDB4BAD2BBF6A7AFB79 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		B8BA1D87115436AC6EC4C0485AB53B08 /* FHXNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EE2C7170BC6A8C184D2C2E3B3B9DE7 /* FHXNavigationController.swift */; };
+		C0903F13134C7886578A6A2333A9C3AC /* Pods-FHXNavigationTarBar_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BBBDF9B093C57DEDC5832DC3DC75B3 /* Pods-FHXNavigationTarBar_Tests-dummy.m */; };
+		C378B5E941502AABB7B338FF02629E8D /* Pods-FHXNavigationTarBar_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E005567C1E7FCCF95128CD6AD71189F9 /* Pods-FHXNavigationTarBar_Example-dummy.m */; };
+		D0972D2D12BC2CE9810BA57DB696C91B /* FHXNavigationTarBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BD9575FB8352516103DB0E7944C669 /* FHXNavigationTarBar-dummy.m */; };
+		DB825DB4510D3AFFE1617832503468D6 /* FHXTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5890950363DA41BBB4DD93F81478136 /* FHXTabBarViewController.swift */; };
+		DEFE00BE0C42F2A993D12E1C2633BCEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E47F9A07605F1E0A31CE23BADBB2F29A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6F4ADF00E0F76D77070533909AA1062;
+			remoteInfo = FHXNavigationTarBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19EE2C7170BC6A8C184D2C2E3B3B9DE7 /* FHXNavigationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FHXNavigationController.swift; path = Sources/FHXNavigationController.swift; sourceTree = "<group>"; };
+		27BBBDF9B093C57DEDC5832DC3DC75B3 /* Pods-FHXNavigationTarBar_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FHXNavigationTarBar_Tests-dummy.m"; sourceTree = "<group>"; };
+		2D16B2EBD6C3BE67689BF0964EEDC6DC /* Pods-FHXNavigationTarBar_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FHXNavigationTarBar_Tests-umbrella.h"; sourceTree = "<group>"; };
+		39C65929C434963CBDE99E07E4E29A62 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3F9C65404B99A81DF539EDA8938CF252 /* Pods-FHXNavigationTarBar_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FHXNavigationTarBar_Example-resources.sh"; sourceTree = "<group>"; };
+		3FBE33E454B8CA46E84C295C35803F53 /* Pods-FHXNavigationTarBar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FHXNavigationTarBar_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		45B0AA5596184A64E65948B0C0064BEB /* Pods-FHXNavigationTarBar_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FHXNavigationTarBar_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		46A6D19C4B73A61905C5B85B1313B509 /* Pods-FHXNavigationTarBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FHXNavigationTarBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4C00DF9B0B17DC06BF7D95C93FA8D5C2 /* Pods-FHXNavigationTarBar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FHXNavigationTarBar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5201FD46142EF32AACE6CC5AFD9CC1E6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		591F973655FC6786987C767B06626917 /* FHXNavigationTarBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FHXNavigationTarBar.framework; path = FHXNavigationTarBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65060BABCD16E31054B93BB8E31536BF /* Pods-FHXNavigationTarBar_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FHXNavigationTarBar_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6D100CFAAF7B50DDCBC42FB344A1DC30 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		705D2404A0579A2552068A193A4567FF /* FHXNavigationTarBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FHXNavigationTarBar.modulemap; sourceTree = "<group>"; };
+		7275795C8FA553ADFD43FC53A50787AB /* Pods-FHXNavigationTarBar_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FHXNavigationTarBar_Tests-resources.sh"; sourceTree = "<group>"; };
+		72D54CB0E411AB15C0A83C1E4B6B96FA /* Pods-FHXNavigationTarBar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FHXNavigationTarBar_Example.release.xcconfig"; sourceTree = "<group>"; };
+		73BD9575FB8352516103DB0E7944C669 /* FHXNavigationTarBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FHXNavigationTarBar-dummy.m"; sourceTree = "<group>"; };
+		840E4010C28DEE436DAD7DD2B469E9D8 /* Pods-FHXNavigationTarBar_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FHXNavigationTarBar_Example-frameworks.sh"; sourceTree = "<group>"; };
+		8D0DB21912BB2DFB28CA136FD1F34A3A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F5984A792AC66A9698C99E450478D7A /* Pods-FHXNavigationTarBar_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FHXNavigationTarBar_Example-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		99C4E485862B47DBA240D6A65781EA9B /* Pods-FHXNavigationTarBar_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FHXNavigationTarBar_Tests.modulemap"; sourceTree = "<group>"; };
+		B5890950363DA41BBB4DD93F81478136 /* FHXTabBarViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FHXTabBarViewController.swift; path = Sources/FHXTabBarViewController.swift; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		B7EB5E5F0566426AEEF39A5FB40C9A56 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8A608C699209C0F5858BB2F7C569852 /* FHXNavigationTarBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FHXNavigationTarBar.xcconfig; sourceTree = "<group>"; };
+		C03375004284A213CA5BD4A5EAA42FCB /* Pods-FHXNavigationTarBar_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FHXNavigationTarBar_Example.modulemap"; sourceTree = "<group>"; };
+		CD7E955140C6962049AAB91B29A2EE0C /* FHXNavigationTarBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FHXNavigationTarBar-umbrella.h"; sourceTree = "<group>"; };
+		CF6B4E55E44547A5720F9A50C8E7FABF /* Pods-FHXNavigationTarBar_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FHXNavigationTarBar_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CF85B61F86DDA60B58D2E2A351D94962 /* FHXNavigationTarBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FHXNavigationTarBar.h; path = Sources/FHXNavigationTarBar.h; sourceTree = "<group>"; };
+		D71178EB41EDCF4FFBC0F1337A4739F6 /* Pods-FHXNavigationTarBar_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FHXNavigationTarBar_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E005567C1E7FCCF95128CD6AD71189F9 /* Pods-FHXNavigationTarBar_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FHXNavigationTarBar_Example-dummy.m"; sourceTree = "<group>"; };
+		E5ABB85C2D9BBA90B1C126414AB84619 /* Pods_FHXNavigationTarBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FHXNavigationTarBar_Tests.framework; path = "Pods-FHXNavigationTarBar_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F31DF7E7B29389FB65F56E0C7E6CF4EA /* FHXNavigationTarBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FHXNavigationTarBar-prefix.pch"; sourceTree = "<group>"; };
+		F37B3CA1A27CE30FA642E0435A757E49 /* Pods-FHXNavigationTarBar_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FHXNavigationTarBar_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F3D44F992A39AAC4E9F816B9AEC0C32F /* FHXNavigationTarBar.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = FHXNavigationTarBar.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FACDE616F567C13315AC44B5DCEA465C /* Pods_FHXNavigationTarBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FHXNavigationTarBar_Example.framework; path = "Pods-FHXNavigationTarBar_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		145E44A3828F019CCF0053F23C363FA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C15D45C2EFC3BCA148559D74741A00F /* Foundation.framework in Frameworks */,
+				93E24ED793623CDB4BAD2BBF6A7AFB79 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BEB1E0F8898B4A720F867E61B5E5EF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DD49DFD413A9ACC407446D16C5FC950 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		395A539C58B466B0B4ACEEF9CD4A369A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEFE00BE0C42F2A993D12E1C2633BCEF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00698F28FFE7AF6C197F5E87432CC8C6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				105A2EEC9A7445D1E2A2BBD6F30E4284 /* Pods-FHXNavigationTarBar_Example */,
+				CD111D7F0184A358AEFEA03843CD96BD /* Pods-FHXNavigationTarBar_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		0D306D7268FA1DFE94D7293E0C92129A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F3D44F992A39AAC4E9F816B9AEC0C32F /* FHXNavigationTarBar.podspec */,
+				5201FD46142EF32AACE6CC5AFD9CC1E6 /* LICENSE */,
+				39C65929C434963CBDE99E07E4E29A62 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		105A2EEC9A7445D1E2A2BBD6F30E4284 /* Pods-FHXNavigationTarBar_Example */ = {
+			isa = PBXGroup;
+			children = (
+				8D0DB21912BB2DFB28CA136FD1F34A3A /* Info.plist */,
+				C03375004284A213CA5BD4A5EAA42FCB /* Pods-FHXNavigationTarBar_Example.modulemap */,
+				65060BABCD16E31054B93BB8E31536BF /* Pods-FHXNavigationTarBar_Example-acknowledgements.markdown */,
+				F37B3CA1A27CE30FA642E0435A757E49 /* Pods-FHXNavigationTarBar_Example-acknowledgements.plist */,
+				E005567C1E7FCCF95128CD6AD71189F9 /* Pods-FHXNavigationTarBar_Example-dummy.m */,
+				840E4010C28DEE436DAD7DD2B469E9D8 /* Pods-FHXNavigationTarBar_Example-frameworks.sh */,
+				3F9C65404B99A81DF539EDA8938CF252 /* Pods-FHXNavigationTarBar_Example-resources.sh */,
+				8F5984A792AC66A9698C99E450478D7A /* Pods-FHXNavigationTarBar_Example-umbrella.h */,
+				3FBE33E454B8CA46E84C295C35803F53 /* Pods-FHXNavigationTarBar_Example.debug.xcconfig */,
+				72D54CB0E411AB15C0A83C1E4B6B96FA /* Pods-FHXNavigationTarBar_Example.release.xcconfig */,
+			);
+			name = "Pods-FHXNavigationTarBar_Example";
+			path = "Target Support Files/Pods-FHXNavigationTarBar_Example";
+			sourceTree = "<group>";
+		};
+		239E63D8F70FAB235A6BE8E4D3B2E363 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				494E513A2A2644546EE59823636EDA4A /* FHXNavigationTarBar */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		494E513A2A2644546EE59823636EDA4A /* FHXNavigationTarBar */ = {
+			isa = PBXGroup;
+			children = (
+				19EE2C7170BC6A8C184D2C2E3B3B9DE7 /* FHXNavigationController.swift */,
+				CF85B61F86DDA60B58D2E2A351D94962 /* FHXNavigationTarBar.h */,
+				B5890950363DA41BBB4DD93F81478136 /* FHXTabBarViewController.swift */,
+				0D306D7268FA1DFE94D7293E0C92129A /* Pod */,
+				5BB558F6F71542626C0194BD676134CE /* Support Files */,
+			);
+			name = FHXNavigationTarBar;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		5BB558F6F71542626C0194BD676134CE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				705D2404A0579A2552068A193A4567FF /* FHXNavigationTarBar.modulemap */,
+				B8A608C699209C0F5858BB2F7C569852 /* FHXNavigationTarBar.xcconfig */,
+				73BD9575FB8352516103DB0E7944C669 /* FHXNavigationTarBar-dummy.m */,
+				F31DF7E7B29389FB65F56E0C7E6CF4EA /* FHXNavigationTarBar-prefix.pch */,
+				CD7E955140C6962049AAB91B29A2EE0C /* FHXNavigationTarBar-umbrella.h */,
+				6D100CFAAF7B50DDCBC42FB344A1DC30 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FHXNavigationTarBar";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				239E63D8F70FAB235A6BE8E4D3B2E363 /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				E80EADEB9A40E2348B2916404E066257 /* Products */,
+				00698F28FFE7AF6C197F5E87432CC8C6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CD111D7F0184A358AEFEA03843CD96BD /* Pods-FHXNavigationTarBar_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B7EB5E5F0566426AEEF39A5FB40C9A56 /* Info.plist */,
+				99C4E485862B47DBA240D6A65781EA9B /* Pods-FHXNavigationTarBar_Tests.modulemap */,
+				CF6B4E55E44547A5720F9A50C8E7FABF /* Pods-FHXNavigationTarBar_Tests-acknowledgements.markdown */,
+				45B0AA5596184A64E65948B0C0064BEB /* Pods-FHXNavigationTarBar_Tests-acknowledgements.plist */,
+				27BBBDF9B093C57DEDC5832DC3DC75B3 /* Pods-FHXNavigationTarBar_Tests-dummy.m */,
+				D71178EB41EDCF4FFBC0F1337A4739F6 /* Pods-FHXNavigationTarBar_Tests-frameworks.sh */,
+				7275795C8FA553ADFD43FC53A50787AB /* Pods-FHXNavigationTarBar_Tests-resources.sh */,
+				2D16B2EBD6C3BE67689BF0964EEDC6DC /* Pods-FHXNavigationTarBar_Tests-umbrella.h */,
+				4C00DF9B0B17DC06BF7D95C93FA8D5C2 /* Pods-FHXNavigationTarBar_Tests.debug.xcconfig */,
+				46A6D19C4B73A61905C5B85B1313B509 /* Pods-FHXNavigationTarBar_Tests.release.xcconfig */,
+			);
+			name = "Pods-FHXNavigationTarBar_Tests";
+			path = "Target Support Files/Pods-FHXNavigationTarBar_Tests";
+			sourceTree = "<group>";
+		};
+		E80EADEB9A40E2348B2916404E066257 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				591F973655FC6786987C767B06626917 /* FHXNavigationTarBar.framework */,
+				FACDE616F567C13315AC44B5DCEA465C /* Pods_FHXNavigationTarBar_Example.framework */,
+				E5ABB85C2D9BBA90B1C126414AB84619 /* Pods_FHXNavigationTarBar_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3A51D61FC1B47020732FCEA6B10DD01A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B975806C817804A68F5DBAE9DB7A8E4 /* Pods-FHXNavigationTarBar_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4143455D35C3B41FBDC3C16D24686920 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0079FBBACB2B65CCB5F65C541101C85F /* Pods-FHXNavigationTarBar_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF86602F698C9FC12C62FA2105E1C770 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				575BBA10585B8134219D5476E4C2625E /* FHXNavigationTarBar-umbrella.h in Headers */,
+				2E0AA5E03013B9A87769362F9CF1DC74 /* FHXNavigationTarBar.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9105BB557E1165CAB7EED037F2659F6D /* Pods-FHXNavigationTarBar_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71F1FAE1E70D36A7845D192AEF44D20F /* Build configuration list for PBXNativeTarget "Pods-FHXNavigationTarBar_Tests" */;
+			buildPhases = (
+				FC0D622F9AB011234E6F74DC9AFD2614 /* Sources */,
+				395A539C58B466B0B4ACEEF9CD4A369A /* Frameworks */,
+				3A51D61FC1B47020732FCEA6B10DD01A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-FHXNavigationTarBar_Tests";
+			productName = "Pods-FHXNavigationTarBar_Tests";
+			productReference = E5ABB85C2D9BBA90B1C126414AB84619 /* Pods_FHXNavigationTarBar_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		95E643DCA2645B22BC13AA0E18E65602 /* Pods-FHXNavigationTarBar_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E5FAC970C4591F4B8F3B5D88A6A5130 /* Build configuration list for PBXNativeTarget "Pods-FHXNavigationTarBar_Example" */;
+			buildPhases = (
+				D9B88ACFAB55AF6F2AB191F3FBC3E624 /* Sources */,
+				1BEB1E0F8898B4A720F867E61B5E5EF6 /* Frameworks */,
+				4143455D35C3B41FBDC3C16D24686920 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A141914CC518D653BBA8C55D15231824 /* PBXTargetDependency */,
+			);
+			name = "Pods-FHXNavigationTarBar_Example";
+			productName = "Pods-FHXNavigationTarBar_Example";
+			productReference = FACDE616F567C13315AC44B5DCEA465C /* Pods_FHXNavigationTarBar_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E6F4ADF00E0F76D77070533909AA1062 /* FHXNavigationTarBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE2A349783249D728BFC58F090458AF1 /* Build configuration list for PBXNativeTarget "FHXNavigationTarBar" */;
+			buildPhases = (
+				D3998D76F0C0A8101542ADA4E756FFD0 /* Sources */,
+				145E44A3828F019CCF0053F23C363FA5 /* Frameworks */,
+				FF86602F698C9FC12C62FA2105E1C770 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FHXNavigationTarBar;
+			productName = FHXNavigationTarBar;
+			productReference = 591F973655FC6786987C767B06626917 /* FHXNavigationTarBar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E80EADEB9A40E2348B2916404E066257 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6F4ADF00E0F76D77070533909AA1062 /* FHXNavigationTarBar */,
+				95E643DCA2645B22BC13AA0E18E65602 /* Pods-FHXNavigationTarBar_Example */,
+				9105BB557E1165CAB7EED037F2659F6D /* Pods-FHXNavigationTarBar_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3998D76F0C0A8101542ADA4E756FFD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8BA1D87115436AC6EC4C0485AB53B08 /* FHXNavigationController.swift in Sources */,
+				D0972D2D12BC2CE9810BA57DB696C91B /* FHXNavigationTarBar-dummy.m in Sources */,
+				DB825DB4510D3AFFE1617832503468D6 /* FHXTabBarViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9B88ACFAB55AF6F2AB191F3FBC3E624 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C378B5E941502AABB7B338FF02629E8D /* Pods-FHXNavigationTarBar_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC0D622F9AB011234E6F74DC9AFD2614 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0903F13134C7886578A6A2333A9C3AC /* Pods-FHXNavigationTarBar_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A141914CC518D653BBA8C55D15231824 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FHXNavigationTarBar;
+			target = E6F4ADF00E0F76D77070533909AA1062 /* FHXNavigationTarBar */;
+			targetProxy = E47F9A07605F1E0A31CE23BADBB2F29A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25097EA2B6CD33E668131BD2D818DB4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C00DF9B0B17DC06BF7D95C93FA8D5C2 /* Pods-FHXNavigationTarBar_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FHXNavigationTarBar_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FHXNavigationTarBar_Tests/Pods-FHXNavigationTarBar_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FHXNavigationTarBar_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		45691B20E51407B4CA54883C82E7510F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72D54CB0E411AB15C0A83C1E4B6B96FA /* Pods-FHXNavigationTarBar_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FHXNavigationTarBar_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FHXNavigationTarBar_Example/Pods-FHXNavigationTarBar_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FHXNavigationTarBar_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		49FF8D9F1FFF7DF172AA30A1F7B18579 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46A6D19C4B73A61905C5B85B1313B509 /* Pods-FHXNavigationTarBar_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FHXNavigationTarBar_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FHXNavigationTarBar_Tests/Pods-FHXNavigationTarBar_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FHXNavigationTarBar_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F2F7E89F0C38D84334685D8E4B0AF00F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8A608C699209C0F5858BB2F7C569852 /* FHXNavigationTarBar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FHXNavigationTarBar/FHXNavigationTarBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FHXNavigationTarBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FHXNavigationTarBar/FHXNavigationTarBar.modulemap";
+				PRODUCT_NAME = FHXNavigationTarBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FB9BEE4FBAF217584C017A9C2AD8F592 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FBE33E454B8CA46E84C295C35803F53 /* Pods-FHXNavigationTarBar_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FHXNavigationTarBar_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FHXNavigationTarBar_Example/Pods-FHXNavigationTarBar_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FHXNavigationTarBar_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FC80C00D17A00C21BEA1651599F9DD66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8A608C699209C0F5858BB2F7C569852 /* FHXNavigationTarBar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FHXNavigationTarBar/FHXNavigationTarBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FHXNavigationTarBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FHXNavigationTarBar/FHXNavigationTarBar.modulemap";
+				PRODUCT_NAME = FHXNavigationTarBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71F1FAE1E70D36A7845D192AEF44D20F /* Build configuration list for PBXNativeTarget "Pods-FHXNavigationTarBar_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25097EA2B6CD33E668131BD2D818DB4D /* Debug */,
+				49FF8D9F1FFF7DF172AA30A1F7B18579 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E5FAC970C4591F4B8F3B5D88A6A5130 /* Build configuration list for PBXNativeTarget "Pods-FHXNavigationTarBar_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB9BEE4FBAF217584C017A9C2AD8F592 /* Debug */,
+				45691B20E51407B4CA54883C82E7510F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE2A349783249D728BFC58F090458AF1 /* Build configuration list for PBXNativeTarget "FHXNavigationTarBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC80C00D17A00C21BEA1651599F9DD66 /* Debug */,
+				F2F7E89F0C38D84334685D8E4B0AF00F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
