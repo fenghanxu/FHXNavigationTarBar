@@ -1,5 +1,5 @@
 PODS:
-  - FHXNavigationTarBar (0.1.0)
+  - FHXNavigationTarBar (0.1.1)
 
 DEPENDENCIES:
   - FHXNavigationTarBar (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  FHXNavigationTarBar: f567443474288290c1277dd9c2f41e1e3b582121
+  FHXNavigationTarBar: 8a210d1acf93fc32bc7b1c1294a131aeed23f170
 
 PODFILE CHECKSUM: e4260dc2b0d756e664a70f972442a5071a5fd5e1
 

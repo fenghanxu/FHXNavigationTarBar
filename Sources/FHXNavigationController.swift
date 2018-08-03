@@ -32,7 +32,7 @@ public class FHXNavigationController: UINavigationController,UINavigationControl
     navigationBar.shadowImage = Asserts.findImages(named: "nav-shadowImage") ?? UIImage()
     navigationBar.setBackgroundImage(UIImage.initWith(color: UIColor.white), for: .default)
     //设置tabbar标题字体(大小,颜色) 中间的标题文字
-    navigationBar.titleTextAttributes = [.foregroundColor: UIColor.darkText,
+    navigationBar.titleTextAttributes = [.foregroundColor: Color.textBlack,
                                          .font: UIFont.systemFont(ofSize: 17)]
   }
   
@@ -49,7 +49,7 @@ public class FHXNavigationController: UINavigationController,UINavigationControl
                                                                         style: .plain,
                                                                         target: self,
                                                                         action: #selector(backBtnClick))
-      viewController.navigationItem.leftBarButtonItem?.tintColor = UIColor.darkText
+      viewController.navigationItem.leftBarButtonItem?.tintColor = Color.textBlack
     }else {
       isSwitching = false
     }

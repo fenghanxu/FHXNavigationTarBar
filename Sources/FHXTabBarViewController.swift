@@ -60,9 +60,9 @@ public  func setChildVC(vc viewController: UIViewController,
     //  设置标题与Tabbar按钮文字
     viewController.tabBarItem.title = name
     //设置文字不同状态的颜色
-    let normal = [NSAttributedStringKey.foregroundColor: UIColor.darkText,
+    let normal = [NSAttributedStringKey.foregroundColor: Color.textBlack,
                   NSAttributedStringKey.font: UIFont.systemFont(ofSize: 12)]
-    let select = [NSAttributedStringKey.foregroundColor: UIColor.red]
+    let select = [NSAttributedStringKey.foregroundColor: Color.theme]
     
     viewController.tabBarItem.setTitleTextAttributes(normal, for: .normal)
     viewController.tabBarItem.setTitleTextAttributes(select, for: .selected)
